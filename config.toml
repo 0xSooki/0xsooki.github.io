@@ -3,7 +3,6 @@ base_url = "https://0xsooki.github.io/"
 
 # Site title and description
 title = "sooki"
-description = "Personal website"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -23,8 +22,8 @@ site_title = "sooki"
 
 # Social media links
 social_links = [
-    { name = "twitter", url = "https://twitter.com/yourusername" },
-    { name = "github", url = "https://github.com/yourusername" },
+    { name = "twitter", url = "https://x.com/bencesookitoth" },
+    { name = "github", url = "https://github.com/0xsooki" },
     { name = "email", url = "mailto:your.email@example.com" }
 ]
 

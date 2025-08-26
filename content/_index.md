@@ -5,18 +5,18 @@ description = "Personal website and portfolio"
 
 # sooki
 
-Research @ _Your Institution
+Research @ Eötvös Loránd University
 
 ## CURRENT FOCUS
 
-- your current research area or work focus
-- specific technologies or methodologies you're exploring
-- ongoing projects or studies
+- blockchain consensus attacks
+- zero knowledge cryptography
+- elliptic curves
 
 ## CURRENT HOBBIES
 
-- hobby or interest #1
-- hobby or interest #2
+- bouldering
+- tabletop
 
 ## PROJECTS & PUBLICATIONS
 
