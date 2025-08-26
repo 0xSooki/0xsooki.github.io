@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.title | default(value="sooki") }}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.description | default(value="Personal website") }}{% endif %}">
+    
+    <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ get_url(path="favicon.ico") }}">
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Sticky theme toggle -->
+        <div class="theme-toggle-wrapper">
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-toggle-icon">O</span>
+            </button>
+        </div>
+
+        <main>
+            {% block content %}{% endblock content %}
+        </main>
+
+        <footer>
+            {% if config.extra.social_links %}
+            <div class="social-links">
+                {% for link in config.extra.social_links %}
+                <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.name }}</a>
+                {% endfor %}
+            </div>
+            {% endif %}
+            
+            {% if config.extra.last_update %}
+            <p class="last-update">Last update: {{ config.extra.last_update }}</p>
+            {% endif %}
+        </footer>
+    </div>
+
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.querySelector('.theme-toggle');
+        const themeIcon = document.querySelector('.theme-toggle-icon');
+        const body = document.body;
+        
+
+
+        // Check for saved theme preference or default to light mode
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        body.classList.add(savedTheme + '-theme');
+        updateThemeIcon(savedTheme);
+        
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.classList.contains('light-theme') ? 'light' : 'dark';
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            body.classList.remove(currentTheme + '-theme');
+            body.classList.add(newTheme + '-theme');
+            
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+        
+         function updateThemeIcon(theme) {
+            themeIcon.textContent = theme === 'light' ? 'X' : 'O';
+         }
+    </script>
+</body>
+</html>

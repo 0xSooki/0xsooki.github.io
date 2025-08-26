@@ -1,0 +1,32 @@
+# The URL the site will be built for
+base_url = "https://0xsooki.github.io/"
+
+# Site title and description
+title = "sooki"
+description = "Personal website"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+highlight_theme = "base16-ocean-light"
+
+[extra]
+# Site title displayed in navigation
+site_title = "sooki"
+
+# Social media links
+social_links = [
+    { name = "twitter", url = "https://twitter.com/yourusername" },
+    { name = "github", url = "https://github.com/yourusername" },
+    { name = "email", url = "mailto:your.email@example.com" }
+]
+
+# Last update date
+last_update = "26 aug 2025"
