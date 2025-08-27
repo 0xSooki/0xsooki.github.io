@@ -1,6 +1,5 @@
 +++
 title = "sooki"
-description = "Personal website and portfolio"
 +++
 
 # sooki
@@ -9,7 +8,7 @@ Research @ Eötvös Loránd University
 
 ## CURRENT FOCUS
 
-- blockchain consensus attacks
+- blockchain consensus attacks (eprint soon)
 - zero knowledge cryptography
 - elliptic curves
 
@@ -20,26 +19,19 @@ Research @ Eötvös Loránd University
 
 ## PROJECTS & PUBLICATIONS
 
-### - Your Primary Focus Area
+### - Blockchain
 
-- **[Project Name](https://example.com)**: brief description of what this project does
-  ◦ [Related talk or resource](https://example.com)
-- **[Another Project](https://example.com)**: description of another key project
-- **[Publication Title](https://example.com)**: research paper or article you've published
+- **[Kalah foundation](https://github.com/0xSooki/kalah-foundation)**: built a permissionless competitive kalah platform
 
-### - Secondary Focus Area
+### - Quantum Computing
 
-- **[Project Name](https://example.com)**: description of project in different area
-- **[Tool or Library](https://github.com/yourusername/repo)**: open source contribution
-- **[Article or Blog Post](https://example.com)**: writing you've done
+- **[Permanent boost](https://github.com/0xSooki/permanent-boost)**: calculated the permanent function about 100% faster than previous state of the art implementations
+- **[QCS](https://github.com/0xSooki/qcs)**: quantum circuit simulator written in C++
+- **[QCBM](https://github.com/0xSooki/qcbm)**: implementation of the Differentiable learning of quantum circuit Born machines paper
+- **[Steane](https://github.com/0xSooki/steane)**: quantum error correction using code concatenation and the Steane code
 
 ## PAST FOCUS
 
-- previous area of study or work
-- technologies you've worked with before
-- methodologies or frameworks you've explored
-- academic subjects of interest
-  ◦ specific topic #1
-  ◦ specific topic #2
-  ◦ specific topic #3
-- other relevant past interests
+- differential equations & dynamical systems
+- smart contracts
+- functional programming
