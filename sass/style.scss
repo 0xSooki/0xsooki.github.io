@@ -163,11 +163,22 @@ ul li::before {
 ul ul {
     margin-top: var(--spacing-sm);
     margin-bottom: var(--spacing-sm);
-    padding-left: var(--spacing-md);
+    padding-left: var(--spacing-lg);
 }
 
 ul ul li::before {
     content: "◦";
+}
+
+/* Special styling for project sections */
+h3 + ul {
+    margin-top: var(--spacing-sm);
+    padding-left: var(--spacing-lg);
+}
+
+h3 + ul li::before {
+    content: "◦";
+    color: var(--text-muted);
 }
 
 /* Strong/Bold text */
