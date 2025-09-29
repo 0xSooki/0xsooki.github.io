@@ -25,6 +25,7 @@ Research @ Eötvös Loránd University
 
 ### - Quantum Computing
 
+- Contribution to various quantum computing libraries during [unitaryHACK 2025](https://unitaryhack.dev/hackers/0xsooki/), such as [ldpc](https://github.com/quantumgizmos/ldpc), [rustworkx](https://github.com/Qiskit/rustworkx), and [quizx](https://github.com/zxcalc/quizx)
 - **[Permanent boost](https://github.com/0xSooki/permanent-boost)**: calculates the permanent function about 100% faster than previous state of the art implementations
 - **[QCS](https://github.com/0xSooki/qcs)**: quantum circuit simulator written in C++
 - **[QCBM](https://github.com/0xSooki/qcbm)**: implementation of the Differentiable learning of quantum circuit Born machines paper
