@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sooki</title>
+    <meta name="description" content="Personal website">
+    
+    <link rel="stylesheet" href="https://0xsooki.github.io/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://0xsooki.github.io/favicon.ico">
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Sticky theme toggle -->
+        <div class="theme-toggle-wrapper">
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-toggle-icon">O</span>
+            </button>
+        </div>
+
+        <main>
+            
+<div class="content">
+    <h1 id="sooki">sooki</h1>
+<p>Research @ Eötvös Loránd University</p>
+<h2 id="current-focus">CURRENT FOCUS</h2>
+<ul>
+<li>zero knowledge cryptography</li>
+<li>formal software verification</li>
+</ul>
+<h2 id="current-hobbies">CURRENT HOBBIES</h2>
+<ul>
+<li>bouldering</li>
+<li>tabletop</li>
+</ul>
+<h2 id="projects-publications">PROJECTS &amp; PUBLICATIONS</h2>
+<h3 id="cryptography-related">- Cryptography related</h3>
+<ul>
+<li><strong><a href="https://eprint.iacr.org/2025/1719">Bribers, Bribers on The Chain, Is Resisting All in Vain?</a></strong>: trustless consensus manipulation through bribing contracts, paper for <a href="https://fc26.ifca.ai/">FC'26</a></li>
+<li><strong><a href="https://github.com/0xSooki/kalah-foundation">Kalah foundation</a></strong>: a permissionless competitive kalah platform</li>
+</ul>
+<h3 id="quantum-computing">- Quantum Computing</h3>
+<ul>
+<li>Contribution to various quantum computing libraries during <a href="https://unitaryhack.dev/hackers/0xsooki/">unitaryHACK 2025</a>, such as <a href="https://github.com/quantumgizmos/ldpc">ldpc</a>, <a href="https://github.com/Qiskit/rustworkx">rustworkx</a>, and <a href="https://github.com/zxcalc/quizx">quizx</a></li>
+<li><strong><a href="https://github.com/0xSooki/permanent-boost">Permanent boost</a></strong>: calculates the permanent function about 100% faster than previous state of the art implementations</li>
+<li><strong><a href="https://github.com/0xSooki/qcs">QCS</a></strong>: quantum circuit simulator written in C++</li>
+<li><strong><a href="https://github.com/0xSooki/qcbm">QCBM</a></strong>: implementation of the Differentiable learning of quantum circuit Born machines paper</li>
+<li><strong><a href="https://github.com/0xSooki/steane">Steane</a></strong>: quantum error correction using code concatenation and the Steane code</li>
+</ul>
+<h2 id="past-focus">PAST FOCUS</h2>
+<ul>
+<li>blockchain consensus attacks</li>
+<li>differential equations &amp; dynamical systems</li>
+<li>smart contracts</li>
+<li>functional programming</li>
+</ul>
+
+</div>
+
+        </main>
+
+        <footer>
+            
+            <div class="social-links">
+                
+                <a href="https:&#x2F;&#x2F;x.com&#x2F;bencesookitoth" target="_blank" rel="noopener noreferrer">twitter</a>
+                
+                <a href="https:&#x2F;&#x2F;github.com&#x2F;0xsooki" target="_blank" rel="noopener noreferrer">github</a>
+                
+                <a href="mailto:your.email@example.com" target="_blank" rel="noopener noreferrer">email</a>
+                
+            </div>
+            
+            
+            
+            <p class="last-update">Last update: 26 aug 2025</p>
+            
+        </footer>
+    </div>
+
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.querySelector('.theme-toggle');
+        const themeIcon = document.querySelector('.theme-toggle-icon');
+        const body = document.body;
+        
+
+
+        // Check for saved theme preference or default to light mode
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        body.classList.add(savedTheme + '-theme');
+        updateThemeIcon(savedTheme);
+        
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.classList.contains('light-theme') ? 'light' : 'dark';
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            body.classList.remove(currentTheme + '-theme');
+            body.classList.add(newTheme + '-theme');
+            
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+        
+         function updateThemeIcon(theme) {
+            themeIcon.textContent = theme === 'light' ? 'X' : 'O';
+         }
+    </script>
+</body>
+</html>
