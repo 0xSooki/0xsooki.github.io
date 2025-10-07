@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sooki - sooki</title>
+    <meta name="description" content="Personal website and portfolio">
+    
+    <link rel="stylesheet" href="https://0xsooki.github.io/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://0xsooki.github.io/favicon.ico">
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Sticky theme toggle -->
+        <div class="theme-toggle-wrapper">
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-toggle-icon">O</span>
+            </button>
+        </div>
+
+        <main>
+            
+<article class="content">
+    
+    <header>
+        <h1>sooki</h1>
+        
+    </header>
+    
+    
+    <h1 id="sooki">sooki</h1>
+<p>Software Engineer &amp; Developer</p>
+<h2 id="current-focus">CURRENT FOCUS</h2>
+<p>• rust programming and systems development
+• web development with modern frameworks
+• open source contributions
+• technical writing and documentation</p>
+<h2 id="current-hobbies">CURRENT HOBBIES</h2>
+<p>• exploring new programming languages
+• contributing to open source projects</p>
+<h2 id="projects-publications">PROJECTS &amp; PUBLICATIONS</h2>
+<h3 id="software-development">- Software Development</h3>
+<p>• <strong><a href="https://sooki.dev">Personal Website</a></strong>: clean, minimalist site built with Zola
+• <strong><a href="https://github.com/yourusername/project">Project Name</a></strong>: description of your key project
+• <strong><a href="https://example.com">Another Project</a></strong>: brief description of what this project accomplishes</p>
+<h3 id="open-source-contributions">- Open Source Contributions</h3>
+<p>• <strong><a href="https://github.com/yourusername/repo">Repository Name</a></strong>: description of your contribution
+• <strong><a href="https://github.com/yourusername/tool">Library or Tool</a></strong>: what this tool does and why it's useful
+• <strong><a href="https://example.com">Blog Posts</a></strong>: technical writing on topics you care about</p>
+<h2 id="past-focus">PAST FOCUS</h2>
+<p>• web technologies and frameworks
+• database design and optimization<br />
+• cloud infrastructure and deployment
+• computer science fundamentals
+◦ algorithms and data structures
+◦ software architecture patterns<br />
+◦ system design principles
+• various programming languages and paradigms</p>
+
+</article>
+
+        </main>
+
+        <footer>
+            
+            <div class="social-links">
+                
+                <a href="https:&#x2F;&#x2F;scholar.google.com&#x2F;citations?user=pHUa0aQAAAAJ&amp;hl=en&amp;authuser=2" target="_blank" rel="noopener noreferrer">scholar</a>
+                
+                <a href="https:&#x2F;&#x2F;x.com&#x2F;bencesookitoth" target="_blank" rel="noopener noreferrer">twitter</a>
+                
+                <a href="https:&#x2F;&#x2F;github.com&#x2F;0xsooki" target="_blank" rel="noopener noreferrer">github</a>
+                
+                <a href="mailto:your.email@example.com" target="_blank" rel="noopener noreferrer">email</a>
+                
+            </div>
+            
+            
+            
+            <p class="last-update">Last update: 26 aug 2025</p>
+            
+        </footer>
+    </div>
+
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.querySelector('.theme-toggle');
+        const themeIcon = document.querySelector('.theme-toggle-icon');
+        const body = document.body;
+        
+
+
+        // Check for saved theme preference or default to light mode
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        body.classList.add(savedTheme + '-theme');
+        updateThemeIcon(savedTheme);
+        
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.classList.contains('light-theme') ? 'light' : 'dark';
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            body.classList.remove(currentTheme + '-theme');
+            body.classList.add(newTheme + '-theme');
+            
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+        
+         function updateThemeIcon(theme) {
+            themeIcon.textContent = theme === 'light' ? 'X' : 'O';
+         }
+    </script>
+</body>
+</html>
