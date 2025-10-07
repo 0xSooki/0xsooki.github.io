@@ -22,6 +22,7 @@ site_title = "sooki"
 
 # Social media links
 social_links = [
+    { name = "scholar", url = "https://scholar.google.com/citations?user=pHUa0aQAAAAJ&hl=en&authuser=2" },
     { name = "twitter", url = "https://x.com/bencesookitoth" },
     { name = "github", url = "https://github.com/0xsooki" },
     { name = "email", url = "mailto:your.email@example.com" }
