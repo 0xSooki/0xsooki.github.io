@@ -14,11 +14,11 @@ Research @ Eötvös Loránd University
 ## CURRENT HOBBIES
 
 - bouldering
-- tabletop
+- card games
 
 ## PROJECTS & PUBLICATIONS
 
-### - Cryptography related
+### - Blockchain related
 
 - **[Bribers, Bribers on The Chain, Is Resisting All in Vain?](https://eprint.iacr.org/2025/1719)**: trustless consensus manipulation through bribing contracts, paper for [FC'26](https://fc26.ifca.ai/)
 - **[Kalah foundation](https://github.com/0xSooki/kalah-foundation)**: a permissionless competitive kalah platform
