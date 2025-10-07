@@ -2,7 +2,7 @@
 title = "sooki"
 +++
 
-# sooki
+# Bence Sooki-Toth
 
 Research @ Eötvös Loránd University
 
