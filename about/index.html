@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - sooki</title>
+    <meta name="description" content="More about sooki">
+    
+    <link rel="stylesheet" href="https://0xsooki.github.io/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://0xsooki.github.io/favicon.ico">
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Sticky theme toggle -->
+        <div class="theme-toggle-wrapper">
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-toggle-icon">O</span>
+            </button>
+        </div>
+
+        <main>
+            
+<article class="content">
+    
+    <header>
+        <h1>About</h1>
+        
+    </header>
+    
+    
+    <h2 id="about-me">About Me</h2>
+<p>This is an example of how you can create additional pages in your Zola site. You can create new <code>.md</code> files in the <code>content/</code> directory and they will automatically be rendered as pages.</p>
+<p>Some things you might include on an about page:</p>
+<p>• Your background and education
+• Professional experience
+• Research interests
+• Contact information
+• Personal interests</p>
+<p>You can link to this page from your main page by adding a link like <code>[About](/about/)</code> in your markdown content.</p>
+
+</article>
+
+        </main>
+
+        <footer>
+            
+            <div class="social-links">
+                
+                <a href="https:&#x2F;&#x2F;scholar.google.com&#x2F;citations?user=pHUa0aQAAAAJ&amp;hl=en&amp;authuser=2" target="_blank" rel="noopener noreferrer">scholar</a>
+                
+                <a href="https:&#x2F;&#x2F;x.com&#x2F;bencesookitoth" target="_blank" rel="noopener noreferrer">twitter</a>
+                
+                <a href="https:&#x2F;&#x2F;github.com&#x2F;0xsooki" target="_blank" rel="noopener noreferrer">github</a>
+                
+                <a href="mailto:your.email@example.com" target="_blank" rel="noopener noreferrer">email</a>
+                
+            </div>
+            
+            
+            
+            <p class="last-update">Last update: 26 aug 2025</p>
+            
+        </footer>
+    </div>
+
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.querySelector('.theme-toggle');
+        const themeIcon = document.querySelector('.theme-toggle-icon');
+        const body = document.body;
+        
+
+
+        // Check for saved theme preference or default to light mode
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        body.classList.add(savedTheme + '-theme');
+        updateThemeIcon(savedTheme);
+        
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.classList.contains('light-theme') ? 'light' : 'dark';
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            body.classList.remove(currentTheme + '-theme');
+            body.classList.add(newTheme + '-theme');
+            
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+        
+         function updateThemeIcon(theme) {
+            themeIcon.textContent = theme === 'light' ? 'X' : 'O';
+         }
+    </script>
+</body>
+</html>
