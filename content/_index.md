@@ -4,7 +4,7 @@ title = "sooki"
 
 # Bence Sooki-Toth
 
-Research @ Eötvös Loránd University
+MSc @ Aarhus University & Research @ Eötvös Loránd University
 
 ## CURRENT FOCUS
 
@@ -15,6 +15,50 @@ Research @ Eötvös Loránd University
 
 - bouldering
 - perf hunting @ [reth](https://github.com/paradigmxyz/reth)
+
+## WORK EXPERIENCE
+
+
+### <span class="job-title-underline">Research Assistant</span>
+
+**[Eötvös Loránd University](https://www.elte.hu/en/)** · Remote  
+Oct 2024 – Sep 2025
+
+* Designed and implemented a secure encryption module in C++ for the EuroQCI quantum communication project.
+
+
+### <span class="job-title-underline">Student Research Engineer</span>
+
+**[Wigner Research Centre for Physics](https://wigner.hu/en)** · Hybrid  
+Jun 2024 – Jun 2025
+
+* Collaborated with PhD researchers to accelerate permanent function computation for photonic quantum computing workloads.
+* Derived and implemented a novel gradient formula for the permanent, improving differentiability and enabling new optimization workflows.
+
+
+### <span class="job-title-underline">Student Research Fellow</span>
+
+**[OTP Bank](https://www.otpbank.hu/portal/en)** · Hybrid  
+Feb 2025 – Apr 2025
+
+* Investigated the feasibility of integrating post-quantum cryptographic schemes into blockchain consensus and transaction layers.
+
+
+### <span class="job-title-underline">Test Automation Trainee</span>
+
+**[SAP](https://www.sap.com/hungary/index.html)** · Budapest, Hungary  
+July 2023 – May 2024
+
+* Increased SAP Service and Asset Manager automated test coverage by converting manual workflows into Java/Appium test suites.
+
+
+### <span class="job-title-underline">Full-stack Developer</span>
+
+**[Coding Sans](https://codingsans.com/)** · Budapest, Hungary  
+June 2022 – Oct 2022
+
+* Implemented scalable backend services in TypeScript, improving performance and reliability.
+* Built Angular frontend components from Figma designs, ensuring UI consistency and responsiveness.
 
 ## PROJECTS & PUBLICATIONS
 
