@@ -14,14 +14,15 @@ Research @ Eötvös Loránd University
 ## CURRENT HOBBIES
 
 - bouldering
-- card games
+- perf hunting @ [reth](https://github.com/paradigmxyz/reth)
 
 ## PROJECTS & PUBLICATIONS
 
-### - Blockchain related
+### - Cryptography related
 
+- **[crypto-rs](https://github.com/0xSooki/crypto-rs)**: dependency-free cryptographic primitives in Rust, built from scratch
+- **[stark-rs](https://github.com/0xSooki/stark-rs)**: in-progress, dependency-free implementation of a STARK proof system in Rust, built from scratch
 - **[Bribers, Bribers on The Chain, Is Resisting All in Vain?](https://eprint.iacr.org/2025/1719)**: trustless consensus manipulation through bribing contracts, paper for [FC'26](https://fc26.ifca.ai/)
-- **[Kalah foundation](https://github.com/0xSooki/kalah-foundation)**: a permissionless competitive kalah platform
 
 ### - Quantum Computing
 
