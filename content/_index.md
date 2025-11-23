@@ -1,5 +1,6 @@
 +++
-title = "sooki"
+title = "Bence Sooki-Toth - Cryptography Researcher"
+description = "Bence Sooki-Toth is a cryptography researcher interested in cryptography, formal verification, and distributed systems. MSc student at Aarhus University and researcher at Eötvös Loránd University."
 +++
 
 # Bence Sooki-Toth

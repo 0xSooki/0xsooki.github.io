@@ -2,7 +2,13 @@
 base_url = "https://0xsooki.github.io/"
 
 # Site title and description
-title = "sooki"
+title = "Bence Sooki-Toth - Cryptography Researcher"
+description = "Bence Sooki-Toth is a cryptography researcher interested in cryptography, formal verification, and distributed systems. MSc student at Aarhus University and researcher at Eötvös Loránd University."
+
+# Author information
+[extra.author]
+name = "Bence Sooki-Toth"
+email = "0xSooki@protonmail.com"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -25,7 +31,7 @@ social_links = [
     { name = "scholar", url = "https://scholar.google.com/citations?user=pHUa0aQAAAAJ&hl=en&authuser=2" },
     { name = "twitter", url = "https://x.com/bencesookitoth" },
     { name = "github", url = "https://github.com/0xsooki" },
-    { name = "email", url = "mailto:your.email@example.com" }
+    { name = "email", url = "mailto:0xSooki@protonmail.com" }
 ]
 
 # Last update date

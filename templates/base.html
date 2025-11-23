@@ -2,10 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.title | default(value="sooki") }}</title>
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.description | default(value="Personal website") }}{% endif %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.title | default(value="Bence Sooki-Toth") }}</title>
+    <meta name="title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ config.title | default(value="Bence Sooki-Toth") }}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.description | default(value="Cryptography researcher interested in zero-knowledge proofs, formal verification, and distributed systems.") }}{% endif %}">
+    <meta name="author" content="Bence Sooki-Toth">
+    <meta name="keywords" content="Bence Sooki-Toth, cryptography, zero-knowledge proofs and ZK, STARK, formal verification, quantum computing, blockchain, Rust, researcher">
+    <link rel="canonical" href="{{ config.base_url }}">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ config.base_url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ config.title | default(value="Bence Sooki-Toth") }}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.description | default(value="Cryptography researcher interested in zero-knowledge proofs, formal verification, and distributed systems.") }}{% endif %}">
+    <meta property="og:site_name" content="Bence Sooki-Toth">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="{{ config.base_url }}">
+    <meta property="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ config.title | default(value="Bence Sooki-Toth") }}">
+    <meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.description | default(value="Cryptography researcher interested in zero-knowledge proofs, formal verification, and distributed systems.") }}{% endif %}">
+    <meta property="twitter:creator" content="@bencesookitoth">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Bence Sooki-Toth",
+      "url": "{{ config.base_url }}",
+      "sameAs": [
+        "https://github.com/0xsooki",
+        "https://x.com/bencesookitoth",
+        "https://scholar.google.com/citations?user=pHUa0aQAAAAJ"
+      ],
+      "jobTitle": "Cryptography Researcher",
+      "worksFor": [
+        {
+          "@type": "Organization",
+          "name": "Eötvös Loránd University"
+        },
+        {
+          "@type": "Organization",
+          "name": "Aarhus University"
+        }
+      ],
+      "knowsAbout": [
+        "Cryptography",
+        "Zero-Knowledge Proofs",
+        "Formal Verification",
+        "Quantum Computing",
+        "Blockchain Technology"
+      ]
+    }
+    </script>
     
     <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
     
