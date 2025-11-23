@@ -61,6 +61,10 @@ June 2022 – Oct 2022
 * Designed and implemented backend microservices in TypeScript (Node.js).
 * Developed Angular frontend components directly from Figma specifications.
 
+## TALKS
+
+- **[Developer tools & Ecosystem on Polygon](/Developer_tools_&_Ecosystem_on_polygon.pdf)**: presented at Polygon DevX Global Tour Lisbon
+
 ## PROJECTS & PUBLICATIONS
 
 ### - Cryptography related
