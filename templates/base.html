@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Primary Meta Tags -->
+    <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
+
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.title | default(value="Bence Sooki-Toth") }}</title>
-    <meta name="title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ config.title | default(value="Bence Sooki-Toth") }}">
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.description | default(value="Cryptography researcher interested in zero-knowledge proofs, formal verification, and distributed systems.") }}{% endif %}">
     <meta name="author" content="Bence Sooki-Toth">
-    <meta name="keywords" content="Bence Sooki-Toth, cryptography, zero-knowledge proofs and ZK, STARK, formal verification, quantum computing, blockchain, Rust, researcher">
+    <meta name="keywords" content="Bence Sooki-Toth, cryptography, zero-knowledge proofs, ZK, STARK, formal verification, quantum computing, blockchain, Rust, researcher">
     <link rel="canonical" href="{{ config.base_url }}">
     
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ config.base_url }}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ config.title | default(value="Bence Sooki-Toth") }}">
@@ -58,8 +57,6 @@
       ]
     }
     </script>
-    
-    <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{{ get_url(path="favicon.ico") }}">

@@ -3,12 +3,7 @@ base_url = "https://0xsooki.github.io/"
 
 # Site title and description
 title = "Bence Sooki-Toth - Cryptography Researcher"
-description = "Bence Sooki-Toth is a cryptography researcher interested in cryptography, formal verification, and distributed systems. MSc student at Aarhus University and researcher at Eötvös Loránd University."
-
-# Author information
-[extra.author]
-name = "Bence Sooki-Toth"
-email = "0xSooki@protonmail.com"
+description = "Bence Sooki-Toth is a cryptography researcher interested in zero-knowledge proofs, formal verification, and distributed systems. MSc student at Aarhus University and researcher at Eötvös Loránd University."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
