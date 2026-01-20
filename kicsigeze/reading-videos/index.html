@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://0xsooki.github.io/style.css">
+
+    <title>Reading &#x2F; Videos - Bence Soóki-Tóth</title>
+    <meta name="description" content="References for deeper study">
+    <meta name="author" content="Bence Soóki-Tóth">
+    <meta name="keywords" content="Bence Soóki-Tóth, cryptography, zero-knowledge proofs, ZK, STARK, formal verification, quantum computing, blockchain, Rust, researcher">
+    <link rel="canonical" href="https:&#x2F;&#x2F;0xsooki.github.io&#x2F;">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https:&#x2F;&#x2F;0xsooki.github.io&#x2F;">
+    <meta property="og:title" content="Reading &#x2F; Videos - Bence Soóki-Tóth">
+    <meta property="og:description" content="References for deeper study">
+    <meta property="og:site_name" content="Bence Soóki-Tóth">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https:&#x2F;&#x2F;0xsooki.github.io&#x2F;">
+    <meta property="twitter:title" content="Reading &#x2F; Videos - Bence Soóki-Tóth">
+    <meta property="twitter:description" content="References for deeper study">
+    <meta property="twitter:creator" content="@bencesookitoth">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Bence Soóki-Tóth",
+      "url": "https:&#x2F;&#x2F;0xsooki.github.io&#x2F;",
+      "sameAs": [
+        "https://github.com/0xsooki",
+        "https://x.com/bencesookitoth",
+        "https://scholar.google.com/citations?user=pHUa0aQAAAAJ"
+      ],
+      "jobTitle": "Cryptography Researcher",
+      "worksFor": [
+        {
+          "@type": "Organization",
+          "name": "Eötvös Loránd University"
+        },
+        {
+          "@type": "Organization",
+          "name": "Aarhus University"
+        }
+      ],
+      "knowsAbout": [
+        "Cryptography",
+        "Zero-Knowledge Proofs",
+        "Formal Verification",
+        "Quantum Computing",
+        "Blockchain Technology"
+      ]
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://0xsooki.github.io/favicon.ico">
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Sticky theme toggle -->
+        <div class="theme-toggle-wrapper">
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-toggle-icon">O</span>
+            </button>
+        </div>
+
+        <main>
+            
+<article class="content">
+    
+    <header>
+        <h1>Reading &#x2F; Videos</h1>
+        
+    </header>
+    
+    
+    <h2 id="reading-videos">Reading / Videos</h2>
+<p>This page is intentionally link-heavy: it’s meant to be your “syllabus”.</p>
+<h2 id="classes-oop-python-data-model">Classes / OOP / Python data model</h2>
+<ul>
+<li>Python docs: Data model (<code>__dunder__</code> methods): <a rel="external" href="https://docs.python.org/3/reference/datamodel.html">docs.python.org/3/reference/datamodel.html</a></li>
+<li>Python docs: <code>dataclasses</code>: <a rel="external" href="https://docs.python.org/3/library/dataclasses.html">docs.python.org/3/library/dataclasses.html</a></li>
+<li>Python docs: <code>typing</code> (Protocols, generics): <a rel="external" href="https://docs.python.org/3/library/typing.html">docs.python.org/3/library/typing.html</a></li>
+<li>Raymond Hettinger (excellent talks; search the titles):
+<ul>
+<li>“Transforming Code into Beautiful, Idiomatic Python”</li>
+<li>“Beyond PEP 8”</li>
+</ul>
+</li>
+</ul>
+<h2 id="numpy">NumPy</h2>
+<ul>
+<li>NumPy: Quickstart tutorial: <a rel="external" href="https://numpy.org/doc/stable/user/quickstart.html">numpy.org/doc/stable/user/quickstart.html</a></li>
+<li>NumPy: Broadcasting: <a rel="external" href="https://numpy.org/doc/stable/user/basics.broadcasting.html">numpy.org/doc/stable/user/basics.broadcasting.html</a></li>
+<li>NumPy: <code>einsum</code>: <a rel="external" href="https://numpy.org/doc/stable/reference/generated/numpy.einsum.html">numpy.org/doc/stable/reference/generated/numpy.einsum.html</a></li>
+<li>MIT 18.06 (Linear Algebra) video lectures (good companion for linalg parts): <a rel="external" href="https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/">ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/</a></li>
+</ul>
+<h2 id="pytorch-minimal">PyTorch (minimal)</h2>
+<ul>
+<li>PyTorch: Tensors: <a rel="external" href="https://pytorch.org/docs/stable/tensors.html">pytorch.org/docs/stable/tensors.html</a></li>
+<li>PyTorch: Autograd: <a rel="external" href="https://pytorch.org/docs/stable/autograd.html">pytorch.org/docs/stable/autograd.html</a></li>
+<li>PyTorch: <code>nn.Module</code>: <a rel="external" href="https://pytorch.org/docs/stable/generated/torch.nn.Module.html">pytorch.org/docs/stable/generated/torch.nn.Module.html</a></li>
+</ul>
+<h2 id="setup-notes">Setup notes</h2>
+<ul>
+<li>Recommended: create a fresh env with <code>python -m venv .venv</code> and install <code>numpy</code> and <code>torch</code>.</li>
+<li>If you can’t install <code>torch</code> easily on your machine, you can still do the <strong>classes</strong> + <strong>NumPy</strong> parts.</li>
+</ul>
+
+</article>
+
+        </main>
+
+        <footer>
+            
+            <div class="social-links">
+                
+                <a href="https:&#x2F;&#x2F;scholar.google.com&#x2F;citations?user=pHUa0aQAAAAJ&amp;hl=en&amp;authuser=2" target="_blank" rel="noopener noreferrer">scholar</a>
+                
+                <a href="https:&#x2F;&#x2F;x.com&#x2F;bencesookitoth" target="_blank" rel="noopener noreferrer">twitter</a>
+                
+                <a href="https:&#x2F;&#x2F;github.com&#x2F;0xsooki" target="_blank" rel="noopener noreferrer">github</a>
+                
+                <a href="mailto:0xSooki@protonmail.com" target="_blank" rel="noopener noreferrer">email</a>
+                
+            </div>
+            
+            
+            
+            <p class="last-update">Last update: 6 dec 2025</p>
+            
+        </footer>
+    </div>
+
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.querySelector('.theme-toggle');
+        const themeIcon = document.querySelector('.theme-toggle-icon');
+        const body = document.body;
+        
+
+
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        body.classList.add(savedTheme + '-theme');
+        updateThemeIcon(savedTheme);
+        
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.classList.contains('light-theme') ? 'light' : 'dark';
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            body.classList.remove(currentTheme + '-theme');
+            body.classList.add(newTheme + '-theme');
+            
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+        
+         function updateThemeIcon(theme) {
+            themeIcon.textContent = theme === 'light' ? 'X' : 'O';
+         }
+    </script>
+</body>
+</html>

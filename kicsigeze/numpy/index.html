@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://0xsooki.github.io/style.css">
+
+    <title>NumPy - Bence Soóki-Tóth</title>
+    <meta name="description" content="Vectorization, broadcasting, and numerical computing patterns">
+    <meta name="author" content="Bence Soóki-Tóth">
+    <meta name="keywords" content="Bence Soóki-Tóth, cryptography, zero-knowledge proofs, ZK, STARK, formal verification, quantum computing, blockchain, Rust, researcher">
+    <link rel="canonical" href="https:&#x2F;&#x2F;0xsooki.github.io&#x2F;">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https:&#x2F;&#x2F;0xsooki.github.io&#x2F;">
+    <meta property="og:title" content="NumPy - Bence Soóki-Tóth">
+    <meta property="og:description" content="Vectorization, broadcasting, and numerical computing patterns">
+    <meta property="og:site_name" content="Bence Soóki-Tóth">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https:&#x2F;&#x2F;0xsooki.github.io&#x2F;">
+    <meta property="twitter:title" content="NumPy - Bence Soóki-Tóth">
+    <meta property="twitter:description" content="Vectorization, broadcasting, and numerical computing patterns">
+    <meta property="twitter:creator" content="@bencesookitoth">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Bence Soóki-Tóth",
+      "url": "https:&#x2F;&#x2F;0xsooki.github.io&#x2F;",
+      "sameAs": [
+        "https://github.com/0xsooki",
+        "https://x.com/bencesookitoth",
+        "https://scholar.google.com/citations?user=pHUa0aQAAAAJ"
+      ],
+      "jobTitle": "Cryptography Researcher",
+      "worksFor": [
+        {
+          "@type": "Organization",
+          "name": "Eötvös Loránd University"
+        },
+        {
+          "@type": "Organization",
+          "name": "Aarhus University"
+        }
+      ],
+      "knowsAbout": [
+        "Cryptography",
+        "Zero-Knowledge Proofs",
+        "Formal Verification",
+        "Quantum Computing",
+        "Blockchain Technology"
+      ]
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://0xsooki.github.io/favicon.ico">
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Sticky theme toggle -->
+        <div class="theme-toggle-wrapper">
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-toggle-icon">O</span>
+            </button>
+        </div>
+
+        <main>
+            
+<article class="content">
+    
+    <header>
+        <h1>NumPy</h1>
+        
+    </header>
+    
+    
+    <h2 id="numpy-foundations">NumPy foundations</h2>
+<p>Notebook (download/open locally): <a href="/kicsigeze/notebooks/02_numpy_foundations.ipynb">/kicsigeze/notebooks/02_numpy_foundations.ipynb</a></p>
+<h2 id="what-you-should-get-out-of-this">What you should get out of this</h2>
+<ul>
+<li>Think in <strong>arrays</strong> and <strong>shapes</strong> (and stop writing Python loops)</li>
+<li>Master <strong>broadcasting</strong> and indexing (including boolean masks)</li>
+<li>Use <code>einsum</code> and basic linear algebra confidently</li>
+<li>Recognize common numerical issues (dtype, overflow, stability)</li>
+</ul>
+<h2 id="exercises-quick-list">Exercises (quick list)</h2>
+<ul>
+<li>Implement batch cosine similarity without loops</li>
+<li>Implement softmax in a numerically stable way</li>
+<li>Implement PCA with <code>np.linalg.svd</code></li>
+</ul>
+<p>Readings/videos: <a href="/kicsigeze/reading-videos/">Reading / Videos</a></p>
+
+</article>
+
+        </main>
+
+        <footer>
+            
+            <div class="social-links">
+                
+                <a href="https:&#x2F;&#x2F;scholar.google.com&#x2F;citations?user=pHUa0aQAAAAJ&amp;hl=en&amp;authuser=2" target="_blank" rel="noopener noreferrer">scholar</a>
+                
+                <a href="https:&#x2F;&#x2F;x.com&#x2F;bencesookitoth" target="_blank" rel="noopener noreferrer">twitter</a>
+                
+                <a href="https:&#x2F;&#x2F;github.com&#x2F;0xsooki" target="_blank" rel="noopener noreferrer">github</a>
+                
+                <a href="mailto:0xSooki@protonmail.com" target="_blank" rel="noopener noreferrer">email</a>
+                
+            </div>
+            
+            
+            
+            <p class="last-update">Last update: 6 dec 2025</p>
+            
+        </footer>
+    </div>
+
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.querySelector('.theme-toggle');
+        const themeIcon = document.querySelector('.theme-toggle-icon');
+        const body = document.body;
+        
+
+
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        body.classList.add(savedTheme + '-theme');
+        updateThemeIcon(savedTheme);
+        
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.classList.contains('light-theme') ? 'light' : 'dark';
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            body.classList.remove(currentTheme + '-theme');
+            body.classList.add(newTheme + '-theme');
+            
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+        
+         function updateThemeIcon(theme) {
+            themeIcon.textContent = theme === 'light' ? 'X' : 'O';
+         }
+    </script>
+</body>
+</html>
