@@ -2,7 +2,7 @@
 base_url = "https://0xsooki.github.io/"
 
 # Site title and description
-title = "Bence Sooki-Toth"
+title = "Bence Soóki-Tóth"
 description = "I am a Master's student at Aarhus University interested in cryptography broadly, proof systems, multi-party computation and zero-knowledge in particular. I am also a student researcher affiliated with Eötvös Loránd University."
 
 # Whether to automatically compile all Sass files in the sass directory

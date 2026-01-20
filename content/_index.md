@@ -1,9 +1,9 @@
 +++
-title = "Bence Sooki-Toth"
+title = "Bence Soóki-Tóth"
 description = "I am a Master's student at Aarhus University interested in cryptography broadly, proof systems, multi-party computation and zero-knowledge in particular. I am also a student researcher affiliated with Eötvös Loránd University."
 +++
 
-# Bence Sooki-Toth
+# Bence Soóki-Tóth
 
 MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-security) & Research @ [Eötvös Loránd University](https://www.elte.hu/en/)
 
