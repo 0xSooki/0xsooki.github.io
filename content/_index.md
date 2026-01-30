@@ -13,8 +13,8 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 
 ## CURRENT INTEREST
 
-* zero knowledge cryptography
-* Ethereum security
+* accumulator schemes
+* secure and scalable cryptocurrencies
 
 ## HOBBIES
 
