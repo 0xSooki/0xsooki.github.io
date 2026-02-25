@@ -25,11 +25,11 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 ### <span class="job-title-underline">Research Assistant</span>
 
 **[Eötvös Loránd University](https://www.elte.hu/en/)** · Remote  
-Oct 2024 – Sep 2025
+Oct 2024 – Jan 2026
 
 * Contributed to the design and implementation of a secure encryption module in C++ for the EuroQCI quantum communication project.
 
-### <span class="job-title-underline">Student Research Engineer</span>
+### <span class="job-title-underline">Bachelor Thesis Researcher</span>
 
 **[Wigner Research Centre for Physics](https://wigner.hu/en)** · Hybrid  
 Jun 2024 – Jun 2025
