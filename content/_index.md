@@ -13,14 +13,15 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 
 ## CURRENT INTEREST
 
-* accumulator schemes
+* cryptographic accumulators
 * secure and scalable cryptocurrencies
+* game theory
 
 ## HOBBIES
 
 * bouldering
 
-## WORK EXPERIENCE
+## RESEARCH EXPERIENCE
 
 ### <span class="job-title-underline">Research Assistant</span>
 
@@ -28,6 +29,7 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 Oct 2024 – Jan 2026
 
 * Contributed to the design and implementation of a secure encryption module in C++ for the EuroQCI quantum communication project.
+* Implemented checkpoint-based caching that stores results at each checkpoint, enabling state restoration after shutdown from scratch.
 
 ### <span class="job-title-underline">Bachelor Thesis Researcher</span>
 
@@ -36,6 +38,7 @@ Jun 2024 – Jun 2025
 
 * Collaborated with PhD researchers to accelerate permanent function computation for photonic quantum computing workloads such as Gaussian Boson sampling.
 * Derived and implemented a novel gradient formula for the permanent, making the computation more efficient.
+* Achieved a 2x performance boost compared to state-of-the-art permanent calculators through GPU (CUDA) based optimizations.
 
 ### <span class="job-title-underline">Student Research Fellow</span>
 
@@ -43,6 +46,22 @@ Jun 2024 – Jun 2025
 Feb 2025 – Apr 2025
 
 * Investigated the feasibility of integrating post-quantum cryptographic schemes into blockchain consensus and transaction layers.
+
+## PUBLICATIONS
+
+* [Bribers, Bribers on The Chain, Is Resisting All in Vain? Trustless Consensus Manipulation Through Bribing Contracts](https://fc26.ifca.ai/preproceedings/95.pdf) · **Bence Soóki-Tóth**, István András Seres, Kamilla Kara, Ábel Nagy, Balázs Pejó, Gergely Biczók
+
+## TALKS
+
+[**Bribers, Bribers on The Chain, Is Resisting All in Vain?**](https://0xsooki.github.io/bribers_au_crypto_seminar.pdf) · [Aarhus Crypto Seminar](https://cs.au.dk/research/cryptography-and-cyber-security/seminar) July 2023
+
+* Presented my previous work on trustless consensus manipulation through bribing contracts.
+
+[**Developer tools & Ecosystem on Polygon**](https://0xsooki.github.io/Developer_tools_&_Ecosystem_on_polygon.pdf) · [DevX Global Tour](https://polygon.technology/blog/devx-global-tour-is-coming-to-europe-in-july) July 2023
+
+* Delivered a presentation on Polygon's developer tooling, network solutions (PoS, zkEVM, Supernets, ID), and ecosystem.
+
+## WORK EXPERIENCE
 
 ### <span class="job-title-underline">Test Automation Trainee</span>
 
@@ -59,9 +78,9 @@ June 2022 – Oct 2022
 * Designed and implemented backend microservices in TypeScript (Node.js).
 * Developed Angular frontend components directly from Figma specifications.
 
-## PROJECTS & PUBLICATIONS
+## PROJECTS
 
-### - Cryptography related
+### - Cryptography
 
 * **[crypto-rs](https://github.com/0xSooki/crypto-rs)**: dependency-free cryptographic primitives in Rust, built from scratch
 * **[stark-rs](https://github.com/0xSooki/stark-rs)**: in-progress, dependency-free implementation of a STARK proof system in Rust, built from scratch
@@ -69,7 +88,7 @@ June 2022 – Oct 2022
 
 ### - Quantum Computing
 
-* Contribution to various quantum computing libraries during [unitaryHACK 2025](https://unitaryhack.dev/hackers/0xsooki/), such as [ldpc](https://github.com/quantumgizmos/ldpc), [rustworkx](https://github.com/Qiskit/rustworkx), and [quizx](https://github.com/zxcalc/quizx)
+* Achieved 11th place during [unitaryHACK 2025](https://unitaryhack.dev/hackers/0xsooki/) by contributing to [ldpc](https://github.com/quantumgizmos/ldpc), [rustworkx](https://github.com/Qiskit/rustworkx), and [quizx](https://github.com/zxcalc/quizx)
 * **[Permanent boost](https://github.com/0xSooki/permanent-boost)**: calculates the permanent function about 100% faster than previous state of the art implementations
 * **[QCS](https://github.com/0xSooki/qcs)**: quantum circuit simulator written in C++
 * **[QCBM](https://github.com/0xSooki/qcbm)**: implementation of the Differentiable learning of quantum circuit Born machines paper
