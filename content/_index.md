@@ -54,17 +54,23 @@ Feb 2025 – Apr 2025
 
 ## PUBLICATIONS
 
-* [Bribers, Bribers on The Chain, Is Resisting All in Vain? Trustless Consensus Manipulation Through Bribing Contracts](https://fc26.ifca.ai/preproceedings/95.pdf). *FC'26* · **Bence Soóki-Tóth**, István András Seres, Kamilla Kara, Ábel Nagy, Balázs Pejó, Gergely Biczók
+* [Bribers, Bribers on The Chain, Is Resisting All in Vain? Trustless Consensus Manipulation Through Bribing Contracts](https://fc26.ifca.ai/preproceedings/95.pdf)  
+  **Bence Soóki-Tóth**, István András Seres, Kamilla Kara, Ábel Nagy, Balázs Pejó, Gergely Biczók
+
+  *Financial Cryptography and Data Security 2026 (FC'26)*  
+
 
 ## TALKS
 
 * **[Bribers, Bribers on The Chain, Is Resisting All in Vain?](https://0xsooki.github.io/bribers_au_crypto_seminar.pdf)**  
-	_Aarhus Crypto Seminar, July 2023_  
+  *Aarhus Crypto Seminar, July 2023*
+
   Presented previous work on trustless consensus manipulation through bribing contracts.
 
 * **[Developer tools & Ecosystem on Polygon](https://0xsooki.github.io/Developer_tools_&_Ecosystem_on_polygon.pdf)**  
-	_DevX Global Tour, July 2023_  
-	Presented Polygon's developer tooling, network solutions (PoS, zkEVM, Supernets, ID), and ecosystem.
+  *DevX Global Tour, July 2023* 
+  
+  Presented Polygon's developer tooling, network solutions (PoS, zkEVM, Supernets, ID), and ecosystem.
 
 ## INDUSTRY EXPERIENCE
 
