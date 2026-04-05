@@ -11,6 +11,11 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 * [github](https://github.com/0xSooki)
 * [scholar](https://scholar.google.com/citations?user=pHUa0aQAAAAJ&hl=en&authuser=2)
 
+## NEWS
+
+* 12 Jan 2026: Our paper on trustless consensus manipulation through bribing contracts appeared in the [FC'26 preproceedings](https://fc26.ifca.ai/preproceedings/95.pdf).
+* 28 May - 11 Jun 2025: Placed 11th at [unitaryHACK 2025](https://unitaryhack.dev/hackers/0xsooki/) with contributions to open-source quantum computing projects.
+
 ## CURRENT INTEREST
 
 * cryptographic accumulators
