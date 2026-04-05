@@ -13,8 +13,8 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 
 ## NEWS
 
-* 12 Jan 2026: Our paper on trustless consensus manipulation through bribing contracts appeared in the [FC'26 preproceedings](https://fc26.ifca.ai/preproceedings/95.pdf).
-* 28 May - 11 Jun 2025: Placed 11th at [unitaryHACK 2025](https://unitaryhack.dev/hackers/0xsooki/) with contributions to open-source quantum computing projects.
+* *12 Jan 2026*: Our paper on trustless consensus manipulation through bribing contracts appeared in the [FC'26 preproceedings](https://fc26.ifca.ai/preproceedings/95.pdf).
+* *28 May - 11 Jun 2025*: Achieved 11th at [unitaryHACK 2025](https://unitaryhack.dev/hackers/0xsooki/) with contributions to open-source quantum computing projects.
 
 ## CURRENT INTEREST
 
@@ -54,19 +54,19 @@ Feb 2025 – Apr 2025
 
 ## PUBLICATIONS
 
-* [Bribers, Bribers on The Chain, Is Resisting All in Vain? Trustless Consensus Manipulation Through Bribing Contracts](https://fc26.ifca.ai/preproceedings/95.pdf) · **Bence Soóki-Tóth**, István András Seres, Kamilla Kara, Ábel Nagy, Balázs Pejó, Gergely Biczók
+* [Bribers, Bribers on The Chain, Is Resisting All in Vain? Trustless Consensus Manipulation Through Bribing Contracts](https://fc26.ifca.ai/preproceedings/95.pdf). *FC'26* · **Bence Soóki-Tóth**, István András Seres, Kamilla Kara, Ábel Nagy, Balázs Pejó, Gergely Biczók
 
 ## TALKS
 
-[**Bribers, Bribers on The Chain, Is Resisting All in Vain?**](https://0xsooki.github.io/bribers_au_crypto_seminar.pdf) · [Aarhus Crypto Seminar](https://cs.au.dk/research/cryptography-and-cyber-security/seminar) July 2023
+* **[Bribers, Bribers on The Chain, Is Resisting All in Vain?](https://0xsooki.github.io/bribers_au_crypto_seminar.pdf)**  
+	_Aarhus Crypto Seminar, July 2023_  
+  Presented previous work on trustless consensus manipulation through bribing contracts.
 
-* Presented my previous work on trustless consensus manipulation through bribing contracts.
+* **[Developer tools & Ecosystem on Polygon](https://0xsooki.github.io/Developer_tools_&_Ecosystem_on_polygon.pdf)**  
+	_DevX Global Tour, July 2023_  
+	Presented Polygon's developer tooling, network solutions (PoS, zkEVM, Supernets, ID), and ecosystem.
 
-[**Developer tools & Ecosystem on Polygon**](https://0xsooki.github.io/Developer_tools_&_Ecosystem_on_polygon.pdf) · [DevX Global Tour](https://polygon.technology/blog/devx-global-tour-is-coming-to-europe-in-july) July 2023
-
-* Delivered a presentation on Polygon's developer tooling, network solutions (PoS, zkEVM, Supernets, ID), and ecosystem.
-
-## WORK EXPERIENCE
+## INDUSTRY EXPERIENCE
 
 ### <span class="job-title-underline">Test Automation Trainee</span>
 
