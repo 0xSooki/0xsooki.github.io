@@ -19,7 +19,6 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 ## CURRENT INTEREST
 
 * cryptographic accumulators
-* secure and scalable cryptocurrencies
 * game theory
 
 ## HOBBIES
@@ -31,12 +30,12 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 ### <span class="job-title-underline">Research Assistant</span>
 
 **[Eötvös Loránd University](https://www.elte.hu/en/)** · Remote  
-Oct 2024 – Jan 2026
+Oct 2024 – Apr 2026
 
 * Contributed to the design and implementation of a secure encryption module in C++ for the EuroQCI quantum communication project.
 * Implemented checkpoint-based caching that stores results at each checkpoint, enabling state restoration after shutdown from scratch.
 
-### <span class="job-title-underline">Bachelor Thesis Researcher</span>
+### <span class="job-title-underline">Bachelor Thesis Project</span>
 
 **[Wigner Research Centre for Physics](https://wigner.hu/en)** · Hybrid  
 Jun 2024 – Jun 2025
