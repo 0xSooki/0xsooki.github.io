@@ -159,6 +159,21 @@ ul li::before {
     font-weight: bold;
 }
 
+/* Scrollable NEWS list (enabled only when it has more than 3 posts) */
+ul.news-scrollable {
+    overflow-y: auto;
+    padding-right: var(--spacing-sm);
+}
+
+ul.news-scrollable::-webkit-scrollbar {
+    width: 6px;
+}
+
+ul.news-scrollable::-webkit-scrollbar-thumb {
+    background-color: var(--border-color);
+    border-radius: 999px;
+}
+
 /* Nested lists */
 ul ul {
     margin-top: var(--spacing-sm);

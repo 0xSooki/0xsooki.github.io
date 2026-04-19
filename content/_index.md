@@ -13,7 +13,9 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 
 ## NEWS
 
+* *14 Apr 2026*: My presentation about trustless consensus manipulation have been accepted to [BSides Aarhus 2026](https://bsidesaarhus.dk/).
 * *12 Jan 2026*: Our paper on trustless consensus manipulation through bribing contracts appeared in the [FC'26 preproceedings](https://fc26.ifca.ai/preproceedings/95.pdf).
+* *21 Sep 2025*: Our paper on trustless consensus manipulation through bribing contracts is now available on [eprint](https://eprint.iacr.org/2025/1719).
 * *28 May - 11 Jun 2025*: Achieved 11th at [unitaryHACK 2025](https://unitaryhack.dev/hackers/0xsooki/) with contributions to open-source quantum computing projects.
 
 ## CURRENT INTEREST
@@ -58,13 +60,17 @@ Feb 2025 – Apr 2025
 
   *Financial Cryptography and Data Security 2026 (FC'26)*  
 
+## CONFERENCES, SEMINARS & INVITED TALKS
 
-## TALKS
+* **[Trustless Consensus Manipulation Through Bribing Contracts](https://0xsooki.github.io/bribers_au_crypto_seminar.pdf)**  
+  *Aarhus Crypto Seminar, March 2026*
 
-* **[Bribers, Bribers on The Chain, Is Resisting All in Vain?](https://0xsooki.github.io/bribers_au_crypto_seminar.pdf)**  
-  *Aarhus Crypto Seminar, July 2023*
+  Presented previous work on trustless consensus manipulation.
 
-  Presented previous work on trustless consensus manipulation through bribing contracts.
+* **[Bribers, Bribers on The Chain, Is Resisting All in Vain?](https://0xsooki.github.io/Bribers_FC.pdf)**  
+  *Financial Cryptography and Data Security 2026 (FC'26)*
+
+  Presented our paper on trustless consensus manipulation.
 
 * **[Developer tools & Ecosystem on Polygon](https://0xsooki.github.io/Developer_tools_&_Ecosystem_on_polygon.pdf)**  
   *DevX Global Tour, July 2023* 
@@ -88,7 +94,7 @@ June 2022 – Oct 2022
 * Designed and implemented backend microservices in TypeScript (Node.js).
 * Developed Angular frontend components directly from Figma specifications.
 
-## PROJECTS
+## SELECTED PROJECTS
 
 ### - Cryptography
 
@@ -104,7 +110,7 @@ June 2022 – Oct 2022
 * **[QCBM](https://github.com/0xSooki/qcbm)**: implementation of the Differentiable learning of quantum circuit Born machines paper
 * **[Steane](https://github.com/0xSooki/steane)**: quantum error correction using code concatenation and the Steane code
 
-## PAST FOCUS
+## PAST INTERESTS
 
 * blockchain consensus attacks
 * differential equations & dynamical systems

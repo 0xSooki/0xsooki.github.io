@@ -143,6 +143,42 @@
             localStorage.setItem('theme', newTheme);
             updateThemeIcon(newTheme);
         });
+
+          function initNewsScroller() {
+            const newsHeading = Array.from(document.querySelectorAll('h2')).find(
+              (heading) => heading.textContent.trim().toLowerCase() === 'news'
+            );
+
+            if (!newsHeading) {
+              return;
+            }
+
+            const newsList = newsHeading.nextElementSibling;
+            if (!newsList || newsList.tagName !== 'UL') {
+              return;
+            }
+
+            const newsItems = Array.from(newsList.children).filter((item) => item.tagName === 'LI');
+
+            newsList.classList.remove('news-scrollable');
+            newsList.style.maxHeight = '';
+
+            if (newsItems.length <= 3) {
+              return;
+            }
+
+            const maxHeight = newsItems.slice(0, 3).reduce((totalHeight, item) => {
+              const itemStyles = window.getComputedStyle(item);
+              const marginBottom = parseFloat(itemStyles.marginBottom) || 0;
+              return totalHeight + item.getBoundingClientRect().height + marginBottom;
+            }, 0);
+
+            newsList.classList.add('news-scrollable');
+            newsList.style.maxHeight = `${maxHeight}px`;
+          }
+
+          initNewsScroller();
+          window.addEventListener('resize', initNewsScroller);
         
          function updateThemeIcon(theme) {
             themeIcon.textContent = theme === 'light' ? 'X' : 'O';
