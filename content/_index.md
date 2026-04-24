@@ -62,21 +62,18 @@ Feb 2025 – Apr 2025
 
 ## CONFERENCES, SEMINARS & INVITED TALKS
 
+* **[Trustless Consensus Manipulation Through Bribing Contracts](https://0xsooki.github.io/Bence_Sooki_Toth_bsides_consensus_manipulation.pdf)**  
+  *BSides Aarhus 2026, June 2026*
+
 * **[Trustless Consensus Manipulation Through Bribing Contracts](https://0xsooki.github.io/bribers_au_crypto_seminar.pdf)**  
   *Aarhus Crypto Seminar, March 2026*
-
-  Presented previous work on trustless consensus manipulation.
 
 * **[Bribers, Bribers on The Chain, Is Resisting All in Vain?](https://0xsooki.github.io/Bribers_FC.pdf)**  
   *Financial Cryptography and Data Security 2026 (FC'26)*
 
-  Presented our paper on trustless consensus manipulation.
-
 * **[Developer tools & Ecosystem on Polygon](https://0xsooki.github.io/Developer_tools_&_Ecosystem_on_polygon.pdf)**  
   *DevX Global Tour, July 2023* 
   
-  Presented Polygon's developer tooling, network solutions (PoS, zkEVM, Supernets, ID), and ecosystem.
-
 ## INDUSTRY EXPERIENCE
 
 ### <span class="job-title-underline">Test Automation Trainee</span>
