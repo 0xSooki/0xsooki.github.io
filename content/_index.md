@@ -13,6 +13,7 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 
 ## NEWS
 
+* *28 Apr 2026*: Our paper, "Private Delegation of (Non-)Membership Proof Updates in Cryptographic Accumulators" is now available on [eprint](https://eprint.iacr.org/2026/832).
 * *14 Apr 2026*: My presentation about trustless consensus manipulation have been accepted to [BSides Aarhus 2026](https://bsidesaarhus.dk/).
 * *12 Jan 2026*: Our paper on trustless consensus manipulation through bribing contracts appeared in the [FC'26 preproceedings](https://fc26.ifca.ai/preproceedings/95.pdf).
 * *21 Sep 2025*: Our paper on trustless consensus manipulation through bribing contracts is now available on [eprint](https://eprint.iacr.org/2025/1719).
@@ -20,6 +21,7 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 
 ## CURRENT INTEREST
 
+* deniable secret sharing
 * cryptographic accumulators
 * game theory
 
@@ -32,7 +34,7 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 ### <span class="job-title-underline">Research Assistant</span>
 
 **[Eötvös Loránd University](https://www.elte.hu/en/)** · Remote  
-Oct 2024 – Apr 2026
+Oct 2024 – Jun 2026
 
 * Contributed to the design and implementation of a secure encryption module in C++ for the EuroQCI quantum communication project.
 * Implemented checkpoint-based caching that stores results at each checkpoint, enabling state restoration after shutdown from scratch.
@@ -59,6 +61,11 @@ Feb 2025 – Apr 2025
   **Bence Soóki-Tóth**, István András Seres, Kamilla Kara, Ábel Nagy, Balázs Pejó, Gergely Biczók
 
   *Financial Cryptography and Data Security 2026 (FC'26)*  
+
+## PREPRINTS
+
+* [Private Delegation of (Non-)Membership Proof Updates in Cryptographic Accumulators](https://eprint.iacr.org/2026/832.pdf)  
+  **Bence Soóki-Tóth**, Botond Glasz, Alireza Kavousi, István András Seres
 
 ## CONFERENCES, SEMINARS & INVITED TALKS
 
