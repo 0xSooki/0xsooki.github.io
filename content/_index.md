@@ -25,10 +25,6 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 * cryptographic accumulators
 * game theory
 
-## HOBBIES
-
-* bouldering
-
 ## RESEARCH EXPERIENCE
 
 ### <span class="job-title-underline">Research Assistant</span>
