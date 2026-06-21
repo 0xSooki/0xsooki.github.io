@@ -98,7 +98,7 @@
         <!-- Sticky theme toggle -->
         <div class="theme-toggle-wrapper">
             <button class="theme-toggle" aria-label="Toggle theme">
-                <span class="theme-toggle-icon">O</span>
+                <img class="theme-toggle-icon" src="{{ get_url(path="moon.png") }}" alt="Toggle theme">
             </button>
         </div>
 
@@ -181,7 +181,7 @@
           window.addEventListener('resize', initNewsScroller);
         
          function updateThemeIcon(theme) {
-            themeIcon.textContent = theme === 'light' ? 'X' : 'O';
+            themeIcon.src = theme === 'light' ? '{{ get_url(path="sun.png") }}' : '{{ get_url(path="moon.png") }}';
          }
     </script>
 </body>
