@@ -45,7 +45,6 @@ body {
     line-height: var(--line-height-base);
     background-color: var(--bg-color);
     color: var(--text-color);
-    transition: background-color 0.3s ease, color 0.3s ease;
     margin: 0;
     padding: 0;
 }
@@ -81,7 +80,6 @@ body {
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
-    transition: opacity 0.3s ease;
 }
 
 /* Main Content */

@@ -7,9 +7,8 @@ description = "I am a Master's student at Aarhus University interested in crypto
 
 MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-security) & Research @ [Eötvös Loránd University](https://www.elte.hu/en/)
 
-* [twitter](https://x.com/0xSooki)
-* [github](https://github.com/0xSooki)
 * [scholar](https://scholar.google.com/citations?user=pHUa0aQAAAAJ&hl=en&authuser=2)
+* [github](https://github.com/0xSooki)
 
 ## NEWS
 
@@ -25,6 +24,26 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 * cryptographic accumulators
 * game theory
 
+## PUBLICATIONS
+
+* [Bribers, Bribers on The Chain, Is Resisting All in Vain? Trustless Consensus Manipulation Through Bribing Contracts](https://fc26.ifca.ai/preproceedings/95.pdf)  
+  **Bence Soóki-Tóth**, István András Seres, Kamilla Kara, Ábel Nagy, Balázs Pejó, Gergely Biczók
+
+  *Financial Cryptography and Data Security 2026 (FC'26)*  
+
+## PREPRINTS
+
+* [Private Delegation of (Non-)Membership Proof Updates in Cryptographic Accumulators](https://eprint.iacr.org/2026/832.pdf)  
+  **Bence Soóki-Tóth**, Botond Glasz, Alireza Kavousi, István András Seres
+
+## CONFERENCES, SEMINARS & INVITED TALKS
+
+* **[Bribers, Bribers on The Chain, Is Resisting All in Vain? Trustless Consensus Manipulation Through Bribing Contracts](https://0xsooki.github.io/Bence_Sooki_Toth_bsides_consensus_manipulation.pdf)**  
+  *BSides Aarhus 2026 (June 2026), Aarhus Crypto Seminar (March 2026), Financial Cryptography and Data Security (FC'26)*
+
+* **[Developer tools & Ecosystem on Polygon](https://0xsooki.github.io/Developer_tools_&_Ecosystem_on_polygon.pdf)**  
+  *DevX Global Tour (July 2023)* 
+  
 ## RESEARCH EXPERIENCE
 
 ### <span class="job-title-underline">Research Assistant</span>
@@ -51,32 +70,6 @@ Feb 2025 – Apr 2025
 
 * Investigated the feasibility of integrating post-quantum cryptographic schemes into blockchain consensus and transaction layers.
 
-## PUBLICATIONS
-
-* [Bribers, Bribers on The Chain, Is Resisting All in Vain? Trustless Consensus Manipulation Through Bribing Contracts](https://fc26.ifca.ai/preproceedings/95.pdf)  
-  **Bence Soóki-Tóth**, István András Seres, Kamilla Kara, Ábel Nagy, Balázs Pejó, Gergely Biczók
-
-  *Financial Cryptography and Data Security 2026 (FC'26)*  
-
-## PREPRINTS
-
-* [Private Delegation of (Non-)Membership Proof Updates in Cryptographic Accumulators](https://eprint.iacr.org/2026/832.pdf)  
-  **Bence Soóki-Tóth**, Botond Glasz, Alireza Kavousi, István András Seres
-
-## CONFERENCES, SEMINARS & INVITED TALKS
-
-* **[Trustless Consensus Manipulation Through Bribing Contracts](https://0xsooki.github.io/Bence_Sooki_Toth_bsides_consensus_manipulation.pdf)**  
-  *BSides Aarhus 2026, June 2026*
-
-* **[Trustless Consensus Manipulation Through Bribing Contracts](https://0xsooki.github.io/bribers_au_crypto_seminar.pdf)**  
-  *Aarhus Crypto Seminar, March 2026*
-
-* **[Bribers, Bribers on The Chain, Is Resisting All in Vain?](https://0xsooki.github.io/Bribers_FC.pdf)**  
-  *Financial Cryptography and Data Security 2026 (FC'26)*
-
-* **[Developer tools & Ecosystem on Polygon](https://0xsooki.github.io/Developer_tools_&_Ecosystem_on_polygon.pdf)**  
-  *DevX Global Tour, July 2023* 
-  
 ## INDUSTRY EXPERIENCE
 
 ### <span class="job-title-underline">Test Automation Trainee</span>
@@ -109,10 +102,3 @@ June 2022 – Oct 2022
 * **[QCS](https://github.com/0xSooki/qcs)**: quantum circuit simulator written in C++
 * **[QCBM](https://github.com/0xSooki/qcbm)**: implementation of the Differentiable learning of quantum circuit Born machines paper
 * **[Steane](https://github.com/0xSooki/steane)**: quantum error correction using code concatenation and the Steane code
-
-## PAST INTERESTS
-
-* blockchain consensus attacks
-* differential equations & dynamical systems
-* smart contracts
-* functional programming
