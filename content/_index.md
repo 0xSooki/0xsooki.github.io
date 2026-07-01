@@ -41,9 +41,6 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 * **[Bribers, Bribers on The Chain, Is Resisting All in Vain? Trustless Consensus Manipulation Through Bribing Contracts](https://0xsooki.github.io/Bence_Sooki_Toth_bsides_consensus_manipulation.pdf)**  
   *BSides Aarhus 2026 (June 2026), Aarhus Crypto Seminar (March 2026), Financial Cryptography and Data Security (FC'26)*
 
-* **[Developer tools & Ecosystem on Polygon](https://0xsooki.github.io/Developer_tools_&_Ecosystem_on_polygon.pdf)**  
-  *DevX Global Tour (July 2023)* 
-  
 ## RESEARCH EXPERIENCE
 
 ### <span class="job-title-underline">Research Assistant</span>
