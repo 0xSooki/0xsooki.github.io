@@ -46,19 +46,20 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 ### <span class="job-title-underline">Research Assistant</span>
 
 **[Eötvös Loránd University](https://www.elte.hu/en/)** · Remote  
-Oct 2024 – Jun 2026
+Oct 2024 – May 2026
 
-* Contributed to the design and implementation of a secure encryption module in C++ for the EuroQCI quantum communication project.
-* Implemented checkpoint-based caching that stores results at each checkpoint, enabling state restoration after shutdown from scratch.
+* Developing the encryptor module for QCIHungary, the Hungarian national contribution to the EU's EuroQCI quantum communication infrastructure (consortium: Pro-M, BME, ELTE, HUN-REN Wigner).
+* Implemented checkpoint-based caching for fault-tolerant recomputation, reducing overhead on restart.
+* Developing a simulation framework for QKD nodes, modelling key generation, key management and link behaviour so that network topologies and failure modes can be evaluated before deployment on fibre.
 
 ### <span class="job-title-underline">Bachelor Thesis Project</span>
 
 **[Wigner Research Centre for Physics](https://wigner.hu/en)** · Hybrid  
 Jun 2024 – Jun 2025
 
-* Collaborated with PhD researchers to accelerate permanent function computation for photonic quantum computing workloads such as Gaussian Boson sampling.
-* Derived and implemented a novel gradient formula for the permanent, making the computation more efficient.
-* Achieved a 2x performance boost compared to state-of-the-art permanent calculators through GPU (CUDA) based optimizations.
+* Derived the gradient for the multiplicity-aware permanent (#P-hard, underlies boson sampling), showing the representation is closed under differentiation.
+* Improved the complexity of gradient evaluation to be exponential in mode occupancy rather than in photon number.
+* Implemented in parallel C++/CUDA, overtaking the state-of-the-art [Piquasso](https://github.com/Budapest-Quantum-Computing-Group/piquasso) backend from n = 11 upward; adopted by the maintainers.
 
 ### <span class="job-title-underline">Student Research Fellow</span>
 
