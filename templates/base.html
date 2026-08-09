@@ -88,17 +88,28 @@
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="{{ get_url(path="favicon.svg") }}">
     
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+    <!-- Font (self-hosted, see @font-face in style.css) -->
+    <link rel="preload" href="{{ get_url(path="fonts/dm-mono-latin.woff2") }}" as="font" type="font/woff2" crossorigin>
 </head>
 <body>
     <div class="container">
         <!-- Sticky theme toggle -->
         <div class="theme-toggle-wrapper">
             <button class="theme-toggle" aria-label="Toggle theme">
-                <img class="theme-toggle-icon" src="{{ get_url(path="moon.png") }}" alt="Toggle theme">
+                <svg class="theme-toggle-icon icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+                <svg class="theme-toggle-icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="5"/>
+                    <line x1="12" y1="1" x2="12" y2="3"/>
+                    <line x1="12" y1="21" x2="12" y2="23"/>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                    <line x1="1" y1="12" x2="3" y2="12"/>
+                    <line x1="21" y1="12" x2="23" y2="12"/>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                </svg>
             </button>
         </div>
 
@@ -124,24 +135,19 @@
     <script>
         // Theme toggle functionality
         const themeToggle = document.querySelector('.theme-toggle');
-        const themeIcon = document.querySelector('.theme-toggle-icon');
         const body = document.body;
-        
-
 
         const savedTheme = localStorage.getItem('theme') || 'dark';
         body.classList.add(savedTheme + '-theme');
-        updateThemeIcon(savedTheme);
-        
+
         themeToggle.addEventListener('click', () => {
             const currentTheme = body.classList.contains('light-theme') ? 'light' : 'dark';
             const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-            
+
             body.classList.remove(currentTheme + '-theme');
             body.classList.add(newTheme + '-theme');
-            
+
             localStorage.setItem('theme', newTheme);
-            updateThemeIcon(newTheme);
         });
 
           function initNewsScroller() {
@@ -180,9 +186,6 @@
           initNewsScroller();
           window.addEventListener('resize', initNewsScroller);
         
-         function updateThemeIcon(theme) {
-            themeIcon.src = theme === 'light' ? '{{ get_url(path="sun.png") }}' : '{{ get_url(path="moon.png") }}';
-         }
     </script>
 </body>
 </html>

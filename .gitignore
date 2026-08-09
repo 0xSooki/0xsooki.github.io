@@ -1,2 +1,5 @@
 .DS_Store
 .vscode/
+
+# Zola build output (deployed from the gh-pages branch by CI)
+public/
