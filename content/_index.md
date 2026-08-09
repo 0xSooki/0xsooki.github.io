@@ -38,8 +38,8 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 
 ## CONFERENCES, SEMINARS & INVITED TALKS
 
-* **[Bribers, Bribers on The Chain, Is Resisting All in Vain? Trustless Consensus Manipulation Through Bribing Contracts](https://0xsooki.github.io/Bence_Sooki_Toth_bsides_consensus_manipulation.pdf)**  
-  *BSides Aarhus 2026 (June 2026), Aarhus Crypto Seminar (March 2026), Financial Cryptography and Data Security (FC'26)*
+* **[Bribers, Bribers on The Chain, Is Resisting All in Vain? Trustless Consensus Manipulation Through Bribing Contracts](https://fc26.ifca.ai/preproceedings/95.pdf)**  
+  *[BSides Aarhus 2026](https://bsidesaarhus.dk/) (June 2026)* [slides](/Bence_Sooki_Toth_bsides_consensus_manipulation.pdf) · *Aarhus Crypto Seminar (March 2026)* [slides](/Bribers_AU_Crypto_Seminar.pdf) · *Financial Cryptography and Data Security (FC'26)* [slides](/Bribers_FC.pdf)
 
 ## RESEARCH EXPERIENCE
 
@@ -67,6 +67,22 @@ Jun 2024 – Jun 2025
 Feb 2025 – Apr 2025
 
 * Investigated the feasibility of integrating post-quantum cryptographic schemes into blockchain consensus and transaction layers.
+
+## TEACHING & ACADEMIC SERVICE
+
+### <span class="job-title-underline">Teaching Assistant</span>
+
+**[Aarhus University](https://ece.au.dk/en)** · Aarhus, Denmark  
+Aug 2026 – Dec 2026
+
+* Teaching assistant for Research Methodology in Electrical and Computer Engineering.
+
+### <span class="job-title-underline">Student Mentor</span>
+
+**[Aarhus University](https://cs.au.dk/)** · Aarhus, Denmark  
+Aug 2026 – Dec 2026
+
+* Mentoring students at the Department of Computer Science.
 
 ## INDUSTRY EXPERIENCE
 
