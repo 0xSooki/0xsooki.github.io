@@ -18,12 +18,6 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 * *21 Sep 2025*: Our paper on trustless consensus manipulation through bribing contracts is now available on [eprint](https://eprint.iacr.org/2025/1719).
 * *28 May - 11 Jun 2025*: Achieved 11th at [unitaryHACK 2025](https://unitaryhack.dev/hackers/0xsooki/) with contributions to open-source quantum computing projects.
 
-## CURRENT INTEREST
-
-* deniable secret sharing
-* cryptographic accumulators
-* game theory
-
 ## PUBLICATIONS
 
 * [Bribers, Bribers on The Chain, Is Resisting All in Vain? Trustless Consensus Manipulation Through Bribing Contracts](https://fc26.ifca.ai/preproceedings/95.pdf)  
