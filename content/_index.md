@@ -21,7 +21,7 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 ## PUBLICATIONS
 
 * [Bribers, Bribers on The Chain, Is Resisting All in Vain? Trustless Consensus Manipulation Through Bribing Contracts](https://fc26.ifca.ai/preproceedings/95.pdf)  
-  **Bence Soóki-Tóth**, István András Seres, Kamilla Kara, Ábel Nagy, Balázs Pejó, Gergely Biczók
+  **Bence Soóki-Tóth<sup>&ast;</sup>**, István András Seres<sup>&ast;</sup>, Kamilla Kara, Ábel Nagy, Balázs Pejó, Gergely Biczók (<sup>&ast;</sup>equal contribution)
 
   *Financial Cryptography and Data Security 2026 (FC'26)*  
 
