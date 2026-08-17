@@ -19,7 +19,11 @@
     {% set canonical_url = page.permalink %}
   {% elif section %}
     {% if section.title %}
-      {% set page_title = section.title ~ " - " ~ site_title %}
+      {% if section.title == site_title %}
+        {% set page_title = site_title %}
+      {% else %}
+        {% set page_title = section.title ~ " - " ~ site_title %}
+      {% endif %}
     {% endif %}
     {% if section.description %}
       {% set page_description = section.description %}
@@ -37,50 +41,113 @@
   <meta name="keywords" content="Bence Soóki-Tóth, Bence Sooki-Toth, Bence Soóki Tóth, Bence Sooki Toth, Bence Sookitoth, cryptography, zero-knowledge proofs, ZK, STARK, formal verification, quantum computing, blockchain, Rust, researcher">
   <link rel="canonical" href="{{ canonical_url }}">
     
+    {% set og_image = get_url(path="og-image.png") %}
+
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ canonical_url }}">
     <meta property="og:title" content="{{ page_title }}">
     <meta property="og:description" content="{{ page_description }}">
     <meta property="og:site_name" content="Bence Soóki-Tóth">
-    
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="{{ og_image }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:alt" content="Bence Soóki-Tóth — cryptoeconomics, proof systems, cryptography, zero-knowledge, game theory">
+
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary">
-    <meta property="twitter:url" content="{{ canonical_url }}">
-    <meta property="twitter:title" content="{{ page_title }}">
-    <meta property="twitter:description" content="{{ page_description }}">
-    <meta property="twitter:creator" content="@bencesookitoth">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ canonical_url }}">
+    <meta name="twitter:title" content="{{ page_title }}">
+    <meta name="twitter:description" content="{{ page_description }}">
+    <meta name="twitter:creator" content="@bencesookitoth">
+    <meta name="twitter:image" content="{{ og_image }}">
+    <meta name="twitter:image:alt" content="Bence Soóki-Tóth — cryptoeconomics, proof systems, cryptography, zero-knowledge, game theory">
     
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Bence Soóki-Tóth",
-      "alternateName": ["Bence Sooki-Toth", "Bence Soóki Tóth", "Bence Sooki Toth", "Bence Sookitoth"],
-      "url": "{{ config.base_url }}",
-      "sameAs": [
-        "https://github.com/0xsooki",
-        "https://x.com/bencesookitoth",
-        "https://scholar.google.com/citations?user=pHUa0aQAAAAJ"
-      ],
-      "jobTitle": "Cryptography Researcher",
-      "worksFor": [
+      "@graph": [
         {
-          "@type": "Organization",
-          "name": "Eötvös Loránd University"
+          "@type": "Person",
+          "@id": "{{ config.base_url }}#person",
+          "name": "Bence Soóki-Tóth",
+          "alternateName": ["Bence Sooki-Toth", "Bence Soóki Tóth", "Bence Sooki Toth", "Bence Sookitoth"],
+          "url": "{{ config.base_url }}",
+          "image": "{{ og_image }}",
+          "description": {{ page_description | json_encode | safe }},
+          "sameAs": [
+            "https://github.com/0xsooki",
+            "https://x.com/bencesookitoth",
+            "https://scholar.google.com/citations?user=pHUa0aQAAAAJ"
+          ],
+          "jobTitle": ["Cryptography Researcher", "Research Assistant"],
+          "worksFor": {
+            "@type": "CollegeOrUniversity",
+            "name": "Eötvös Loránd University",
+            "url": "https://www.elte.hu/en/"
+          },
+          "affiliation": [
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "Aarhus University",
+              "url": "https://cs.au.dk/"
+            },
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "Eötvös Loránd University",
+              "url": "https://www.elte.hu/en/"
+            }
+          ],
+          "knowsAbout": [
+            "Cryptoeconomics",
+            "Mechanism Design",
+            "Consensus Protocols",
+            "Cryptography",
+            "Zero-Knowledge Proofs",
+            "Proof Systems",
+            "Multi-Party Computation",
+            "Cryptographic Accumulators",
+            "Post-Quantum Cryptography",
+            "Formal Verification",
+            "Quantum Computing",
+            "Blockchain Technology"
+          ]
         },
         {
-          "@type": "Organization",
-          "name": "Aarhus University"
+          "@type": "ScholarlyArticle",
+          "name": "Bribers, Bribers on The Chain, Is Resisting All in Vain? Trustless Consensus Manipulation Through Bribing Contracts",
+          "url": "https://fc26.ifca.ai/preproceedings/95.pdf",
+          "sameAs": "https://eprint.iacr.org/2025/1719",
+          "datePublished": "2026",
+          "author": [
+            { "@id": "{{ config.base_url }}#person" },
+            { "@type": "Person", "name": "István András Seres" },
+            { "@type": "Person", "name": "Kamilla Kara" },
+            { "@type": "Person", "name": "Ábel Nagy" },
+            { "@type": "Person", "name": "Balázs Pejó" },
+            { "@type": "Person", "name": "Gergely Biczók" }
+          ],
+          "isPartOf": {
+            "@type": "PublicationEvent",
+            "name": "Financial Cryptography and Data Security 2026 (FC'26)"
+          }
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Private Delegation of (Non-)Membership Proof Updates in Cryptographic Accumulators",
+          "url": "https://eprint.iacr.org/2026/832",
+          "datePublished": "2026-04-28",
+          "creativeWorkStatus": "Preprint",
+          "author": [
+            { "@id": "{{ config.base_url }}#person" },
+            { "@type": "Person", "name": "Botond Glasz" },
+            { "@type": "Person", "name": "Alireza Kavousi" },
+            { "@type": "Person", "name": "István András Seres" }
+          ]
         }
-      ],
-      "knowsAbout": [
-        "Cryptography",
-        "Zero-Knowledge Proofs",
-        "Formal Verification",
-        "Quantum Computing",
-        "Blockchain Technology"
       ]
     }
     </script>

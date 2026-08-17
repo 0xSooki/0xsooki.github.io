@@ -3,7 +3,7 @@ base_url = "https://0xsooki.github.io/"
 
 # Site title and description
 title = "Bence Soóki-Tóth"
-description = "I am a Master's student at Aarhus University interested in cryptography broadly, proof systems, multi-party computation and zero-knowledge in particular. I am also a student researcher affiliated with Eötvös Loránd University."
+description = "MSc student at Aarhus University and researcher at Eötvös Loránd University, working on cryptoeconomics, proof systems, multi-party computation and zero-knowledge."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -18,9 +18,7 @@ site_title = "sooki"
 # Social media links
 social_links = [
     { name = "scholar", url = "https://scholar.google.com/citations?user=pHUa0aQAAAAJ&hl=en&authuser=2" },
-    { name = "twitter", url = "https://x.com/bencesookitoth" },
     { name = "github", url = "https://github.com/0xsooki" },
-    { name = "email", url = "mailto:0xSooki@protonmail.com" }
 ]
 
 # Last update date
