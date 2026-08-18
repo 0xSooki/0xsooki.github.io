@@ -5,9 +5,10 @@ description = "MSc student at Aarhus University and researcher at Eötvös Lorá
 
 # Bence Soóki-Tóth
 
-MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-security) & Research @ [Eötvös Loránd University](https://www.elte.hu/en/)
+MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-security)
 
 * [scholar](https://scholar.google.com/citations?user=pHUa0aQAAAAJ&hl=en&authuser=2)
+* [linkedin](https://www.linkedin.com/in/stbence/)
 * [github](https://github.com/0xSooki)
 
 ## NEWS
