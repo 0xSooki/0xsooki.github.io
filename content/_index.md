@@ -39,20 +39,18 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 
 ### <span class="job-title-underline">Research Assistant</span>
 
-**[Eötvös Loránd University](https://www.elte.hu/en/)** · Remote  
+**[Eötvös Loránd University](https://www.elte.hu/en/)** · Budapest, Hungary  
 May 2025 – July 2025
 
 * Developed the encryptor module for QCIHungary, the Hungarian national contribution to the EU's EuroQCI quantum communication infrastructure (consortium: Pro-M, BME, ELTE, HUN-REN Wigner).
 * Implemented encryption endpoints and caching for fault-tolerant recomputation, reducing restart overhead.
 
-### <span class="job-title-underline">Bachelor Thesis Project</span>
+### <span class="job-title-underline">Student Research Fellow</span>
 
-**[Wigner Research Centre for Physics](https://wigner.hu/en)** · Hybrid  
-Jan 2025 – Jun 2025
+**[ELTE-OTP Cybersecurity Industrial Laboratory](https://otpsecuritylab.inf.elte.hu/en)** · Budapest, Hungary  
+Feb 2025 – Apr 2025
 
-* Derived the gradient for the multiplicity-aware permanent (#P-hard, underlies boson sampling), showing the representation is closed under differentiation.
-* Improved the complexity of gradient evaluation to be exponential in mode occupancy rather than in photon number.
-* Implemented in parallel C++/CUDA, overtaking the state-of-the-art [Piquasso](https://github.com/Budapest-Quantum-Computing-Group/piquasso) backend from n = 11 upward; adopted by the maintainers.
+* Analyzed DLT-based banking use cases: interbank settlement, crypto-asset reserves, and customer crypto services.
 
 ## TEACHING & ACADEMIC SERVICE
 
@@ -84,8 +82,7 @@ July 2023 – May 2024
 **[Coding Sans](https://codingsans.com/)** · Budapest, Hungary  
 June 2022 – Oct 2022
 
-* Designed and implemented backend microservices in TypeScript (Node.js).
-* Developed Angular frontend components directly from Figma specifications.
+* Built Node.js/TypeScript backend services for a SaaS form-builder, designed caching and load-balancing for analytics endpoints.
 
 ## SELECTED PROJECTS
 
