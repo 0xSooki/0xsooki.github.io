@@ -40,27 +40,19 @@ MSc @ [Aarhus University](https://cs.au.dk/research/cryptography-and-cyber-secur
 ### <span class="job-title-underline">Research Assistant</span>
 
 **[Eötvös Loránd University](https://www.elte.hu/en/)** · Remote  
-Oct 2024 – May 2026
+May 2025 – July 2025
 
-* Developing the encryptor module for QCIHungary, the Hungarian national contribution to the EU's EuroQCI quantum communication infrastructure (consortium: Pro-M, BME, ELTE, HUN-REN Wigner).
-* Implemented checkpoint-based caching for fault-tolerant recomputation, reducing overhead on restart.
-* Developing a simulation framework for QKD nodes, modelling key generation, key management and link behaviour so that network topologies and failure modes can be evaluated before deployment on fibre.
+* Developed the encryptor module for QCIHungary, the Hungarian national contribution to the EU's EuroQCI quantum communication infrastructure (consortium: Pro-M, BME, ELTE, HUN-REN Wigner).
+* Implemented encryption endpoints and caching for fault-tolerant recomputation, reducing restart overhead.
 
 ### <span class="job-title-underline">Bachelor Thesis Project</span>
 
 **[Wigner Research Centre for Physics](https://wigner.hu/en)** · Hybrid  
-Jun 2024 – Jun 2025
+Jan 2025 – Jun 2025
 
 * Derived the gradient for the multiplicity-aware permanent (#P-hard, underlies boson sampling), showing the representation is closed under differentiation.
 * Improved the complexity of gradient evaluation to be exponential in mode occupancy rather than in photon number.
 * Implemented in parallel C++/CUDA, overtaking the state-of-the-art [Piquasso](https://github.com/Budapest-Quantum-Computing-Group/piquasso) backend from n = 11 upward; adopted by the maintainers.
-
-### <span class="job-title-underline">Student Research Fellow</span>
-
-**[OTP Bank](https://www.otpbank.hu/portal/en)** · Hybrid  
-Feb 2025 – Apr 2025
-
-* Investigated the feasibility of integrating post-quantum cryptographic schemes into blockchain consensus and transaction layers.
 
 ## TEACHING & ACADEMIC SERVICE
 
